@@ -1,0 +1,74 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Jujutsu Kaisen</title>
+    <link REL="SHORTCUT ICON" HREF="imagens/siteimage.jpg">
+  </head>
+  <body>
+    
+    <div class="container">
+      <div class="panel active" style="background-image: url('imagens/hakari.jpg')">
+        <h4 style="color:#00d39b;">Estudante do 3° ano da Escola Secundária Jujutsu, foi suspenso por ser contra as regras da escola e agora ele fez um clube de luta para feiticeiros Jujutsu.</h4>
+        <h3 style="color:#a9ffe8;">Hakari Kinji</h3>
+      </div>
+      <div class="panel" style="background-image: url('imagens/itadori.jpg')">
+        <h3 style="color:#a9ffe8;">Yuji Itadori</h3>
+        <h4 style="color:#00d39b;">Estudante do 1° ano da Escola Secundária Jujutsu, virou um estudante porque virou o hospedeiro do rei das maldições, Ryomen Sukuna.</h4>
+      </div>
+      <div class="panel" style="background-image: url('imagens/satoru.webp')">
+        <h3 style="color:#a9ffe8;">Satoru Gojo</h3>
+        <h4 style="color:#00d39b;">Professor na Escola Secundária Jujutsu, sendo herdeiro do raro Seis Olhos do clã Gojo, é um dos feiticeiros mais fortes a existir no mundo.</h4>
+      </div>
+      <div class="panel" style="background-image: url('imagens/getou.jpg')">
+        <h3 style="color:#a9ffe8;">Suguru Geto</h3>
+        <h4 style="color:#00d39b;">Ex-aluno da Escola Secundária Jujutsu, antigo parceiro de Satoru, se voltou contra todos os feiticeiros por acreditar em outro método para proteger o mundo.</h4>
+      </div>
+      <div class="panel" style="background-image: url('imagens/yuta.jpg')">
+        <h3 style="color:#a9ffe8;">Yuta Okkotsu</h3>
+        <h4 style="color:#00d39b;">Ex-aluno da Escola Secundária Jujutsu, sendo o feiticeiro mais forte e jovem da história, com técnicas de copiar os poderes de qualquer um.</h4>
+      </div>
+
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+<div class="slider-container">
+
+  <div class="slides fade">
+      <div class="slider-numbers">1/4</div>
+      <div class="slider-image"><img src="imagens/itadori.jpg" alt="background_1"></div>
+      <div class="slider-caption">Itadori e sua turma</div>
+  </div> 
+
+  <div class="slides fade">
+      <div class="slider-numbers">2/4</div>
+      <div class="slider-image"><img src="imagens/gojo.webp" alt="background_2"></div>
+      <div class="slider-caption">Satoru Gojo</div>
+  </div> 
+
+  <div class="slides fade">
+      <div class="slider-numbers">3/4</div>
+      <div class="slider-image"><img src="imagens/getousuguru.avif" alt="background_3"></div>
+      <div class="slider-caption">Suguru Geto</div>
+  </div> 
+
+  <div class="slides fade">
+      <div class="slider-numbers">4/4</div>
+      <div class="slider-image"><img src="imagens/yuta.jpg" alt="background_4"></div>
+      <div class="slider-caption">Yuta Okkotsu</div>
+  </div> 
+
+  <a class="prev" onclick="plusIndex(-1)">&#10094;</a>
+  <a class="next" onclick="plusIndex(+1)">&#10095;</a>
+
+  
+  <div class="slider-bullets" id="slider-bullets">
+      <span class="dots" onclick="currentSlide(1)"></span>
+      <span class="dots" onclick="currentSlide(2)"></span>
+      <span class="dots" onclick="currentSlide(3)"></span>
+      <span class="dots" onclick="currentSlide(4)"></span>
+       
